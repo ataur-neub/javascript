@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <titlelet</title>
+  </head>
+  <body>
+  <p id="use_let">use of let</p>
+  <script>
+    var x=15;//here x=10
+    {
+      let x=20;//here x=20
+    }
+    document.getElementById("use_let").innerHTML=x;//but ourput will be 10 here
+   </script>
+  </body>
+</html>
